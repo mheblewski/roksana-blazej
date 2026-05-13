@@ -126,9 +126,6 @@ button {
 
 .card-anim-wrapper {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
 }
 
 .card-anim-wrapper.card-flip-out {
@@ -1228,9 +1225,6 @@ button {
     width: 100%;
     max-width: 26rem;
     perspective: 1000px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
   }
 
   /* ── Full card ── */
@@ -1246,7 +1240,6 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 0;
-    flex: 1;
     max-height: calc(100dvh - 9rem);
   }
 
@@ -1321,19 +1314,20 @@ button {
   /* Shrink calendar — adaptive to both width and height */
   .mobile-card-visual .calendar-visual {
     width: min(17rem, calc(100vw - 4rem));
-    padding: clamp(0.35rem, 1.2dvh, 0.7rem);
+    max-height: clamp(10rem, 35dvh, 18rem);
+    padding: clamp(0.25rem, 1dvh, 0.7rem);
   }
 
   .mobile-card-visual .calendar-head {
-    font-size: clamp(0.78rem, 2.2dvh, 1rem);
-    margin-bottom: clamp(0.15rem, 0.8dvh, 0.5rem);
+    font-size: clamp(0.65rem, 1.8dvh, 1rem);
+    margin-bottom: clamp(0.1rem, 0.6dvh, 0.5rem);
   }
 
   .mobile-card-visual .weekdays,
-  .mobile-card-visual .calendar-grid { gap: clamp(0.1rem, 0.45dvh, 0.25rem); }
+  .mobile-card-visual .calendar-grid { gap: clamp(0.05rem, 0.35dvh, 0.25rem); }
 
   .mobile-card-visual .weekdays span,
-  .mobile-card-visual .calendar-grid span { font-size: clamp(0.5rem, 1.5dvh, 0.68rem); }
+  .mobile-card-visual .calendar-grid span { font-size: clamp(0.45rem, 1.3dvh, 0.68rem); }
 
   /* Compress "when" card title so calendar + text fit without clipping */
   .mobile-card-when .mobile-card-title {
