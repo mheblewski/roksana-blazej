@@ -17,7 +17,7 @@ export function KeyVisual({ section, countdown }: KeyVisualProps) {
   if (section.visual === 'note') {
     return (
       <div className={`key-visual key-${section.visual}`}>
-        <img src="/rb.svg" alt="R & B" className="key-visual-svg" />
+        <img src={`${process.env.PUBLIC_URL}/rb.svg`} alt="R & B" className="key-visual-svg" />
         <small>2027</small>
       </div>
     );

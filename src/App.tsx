@@ -73,7 +73,7 @@ export default function App() {
                   <span className="envelope-flap" />
                   <span className="envelope-front" />
                   <span className="envelope-seal">
-                    <img src="/rb.svg" alt="R & B" className="monogram-svg seal-svg" />
+                    <img src={`${process.env.PUBLIC_URL}/rb.svg`} alt="R & B" className="monogram-svg seal-svg" />
                   </span>
                 </span>
                 <span className="sr-only">{cardIsOpen ? 'Karta z zaproszeniem' : 'Otwórz kopertę'}</span>

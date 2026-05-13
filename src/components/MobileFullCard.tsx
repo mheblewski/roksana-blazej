@@ -13,7 +13,7 @@ export function MobileFullCard({ section, countdown }: MobileFullCardProps) {
   return (
     <article className={`mobile-full-card mobile-card-${section.id}`} aria-label="Karta z zaproszeniem">
       <div className="card-monogram">
-        <img src="/rb.svg" alt="R & B" className="monogram-svg" />
+        <img src={`${process.env.PUBLIC_URL}/rb.svg`} alt="R & B" className="monogram-svg" />
       </div>
       <div className="mobile-card-content">
         <p className="section-tag">{section.tag}</p>

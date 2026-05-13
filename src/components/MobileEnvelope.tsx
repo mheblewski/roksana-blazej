@@ -71,13 +71,13 @@ export function MobileEnvelope({ isVisible, goToStep }: MobileEnvelopeProps) {
       >
         <span className="mob-env-back" aria-hidden="true">
           {/* <span className="mob-env-stamp" aria-hidden="true">
-            <img src="/rb.svg" alt="" className="stamp-svg" />
+            <img src={`${process.env.PUBLIC_URL}/rb.svg`} alt="" className="stamp-svg" />
             <small>2027</small>
           </span> */}
         </span>
         <article className="mob-peek-card">
           <div className="card-monogram">
-            <img src="/rb.svg" alt="R & B" className="monogram-svg" />
+            <img src={`${process.env.PUBLIC_URL}/rb.svg`} alt="R & B" className="monogram-svg" />
           </div>
           <p className="section-tag">{CARD_SECTIONS[0].tag}</p>
           <h1 className="mobile-card-title">
@@ -88,7 +88,7 @@ export function MobileEnvelope({ isVisible, goToStep }: MobileEnvelopeProps) {
         </article>
         <span className="mob-env-front" aria-hidden="true" />
         <span className="mob-env-seal" aria-hidden="true">
-          <img src="/rb.svg" alt="" className="monogram-svg seal-svg" />
+          <img src={`${process.env.PUBLIC_URL}/rb.svg`} alt="" className="monogram-svg seal-svg" />
         </span>
         <span className="mob-env-flap" aria-hidden="true" />
       </div>
