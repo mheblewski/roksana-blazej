@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/roksana-blazej/static/css/main.da8d5517.css",
+    "main.css": "/roksana-blazej/static/css/main.bfa36953.css",
     "main.js": "/roksana-blazej/static/js/main.2c24158f.js",
     "static/js/453.74a7831e.chunk.js": "/roksana-blazej/static/js/453.74a7831e.chunk.js",
     "index.html": "/roksana-blazej/index.html",
-    "main.da8d5517.css.map": "/roksana-blazej/static/css/main.da8d5517.css.map",
+    "main.bfa36953.css.map": "/roksana-blazej/static/css/main.bfa36953.css.map",
     "main.2c24158f.js.map": "/roksana-blazej/static/js/main.2c24158f.js.map",
     "453.74a7831e.chunk.js.map": "/roksana-blazej/static/js/453.74a7831e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da8d5517.css",
+    "static/css/main.bfa36953.css",
     "static/js/main.2c24158f.js"
   ]
 }
