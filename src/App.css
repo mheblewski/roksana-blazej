@@ -126,6 +126,9 @@ button {
 
 .card-anim-wrapper {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .card-anim-wrapper.card-flip-out {
@@ -980,6 +983,7 @@ button {
   .mobile-stage {
     height: 100dvh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 3.8rem 1.1rem 5rem;
@@ -1224,6 +1228,9 @@ button {
     width: 100%;
     max-width: 26rem;
     perspective: 1000px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   /* ── Full card ── */
@@ -1239,6 +1246,7 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 0;
+    flex: 1;
     max-height: calc(100dvh - 9rem);
   }
 
