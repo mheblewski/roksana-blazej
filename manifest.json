@@ -1,0 +1,15 @@
+{
+  "short_name": "Roksana & Błażej",
+  "name": "Roksana & Błażej — Zaproszenie ślubne",
+  "icons": [
+    {
+      "src": "rb.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#c08b64",
+  "background_color": "#f9f4ec"
+}
